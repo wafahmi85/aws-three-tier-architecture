@@ -4,18 +4,19 @@ while true
 do
 
     read -p "Please type 'deploy' to deploy resources or 'destroy' to terminate resources:" OPERATION
+    lowerstr=$(echo $i | tr '[:upper:]' '[:lower:]')
 
-    if [ "$OPERATION" == "deploy" ]
+    if [ "$lowerstr" == "deploy" ]
     then
         terraform init
         terraform apply --auto-approve
         break
-    elif [ "$OPERATION" == "destroy" ]
+    elif [ "$lowerstr" == "destroy" ]
     then
         terraform destroy
         break
     else
-        echo "Please define what you need to do correctly!!"
+        echo -e "\nPlease define correct operation!\n"
     fi
 
 done

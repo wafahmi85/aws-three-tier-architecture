@@ -21,7 +21,7 @@
 ### Terminating stack
 -	You can either run a same bash script code for terminating resources or directly using terraform command line to deploy resources as below:
 
-1. To cleanup using script run below command and follow the instruction for deploying.
+1. To cleanup using script run below command and follow the instruction for resources cleanup.
     ```
     ./ops.sh
     ```
