@@ -3,7 +3,7 @@
 while true
 do
 
-    read -p "Please type 'deploy' to deploy resources or 'destroy' to terminate resources:" OPERATION
+    read -p "Please type 'deploy' to deploy resources or 'destroy' to terminate resources: " OPERATION
     lowerstr=$(echo $i | tr '[:upper:]' '[:lower:]')
 
     if [ "$lowerstr" == "deploy" ]
