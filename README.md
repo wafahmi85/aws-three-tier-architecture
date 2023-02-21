@@ -1,6 +1,6 @@
 # aws-three-tier-architecture
 
-<img width="427" alt="image" src="https://user-images.githubusercontent.com/108646116/219337830-8d616f22-a350-4084-a539-03317806acfb.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/108646116/219337830-8d616f22-a350-4084-a539-03317806acfb.png">
 
 ### Deploying stack
 -	To run the script, after download or clone from the repository. You can either run a bash script code prepared or directly using terraform command line to deploy resources as below:
